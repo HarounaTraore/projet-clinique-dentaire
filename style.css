@@ -16,7 +16,7 @@
     font-family: Arial, 'Sans serif';
 }
 
-#nav-bar {
+header #nav-bar {
     position: fixed;
     top: 0;
     z-index: 10;
@@ -24,27 +24,29 @@
     transform: translateX(-50%);
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
     padding: 20px 0px;
     border-bottom: 1px solid var(--muted);
     color: var(--silver);
     background-color: var(--whiteBG);
 }
-#nav-bar img {
+header #nav-bar img {
     width: 200px;
     height: 50px;
+    margin-left: 50px;
 }
-#nav-bar div a {
+header #nav-bar div a {
     padding: 20px;
     text-decoration: none;
     color: var(--muted);
     font-size: 18px;
+    
 }
-#nav-bar div a:hover {
+header #nav-bar div a:hover {
     color: var(--primary);
     font-weight: bold;
 }
-#nav-bar div button {
+header #nav-bar div button {
     padding: 12px 35px;
     background-color: var(--primary);
     color: var(--white);
@@ -52,6 +54,7 @@
     border-radius: 5px;
     font-weight: bold;
     font-size: 13px;
+    margin-right: 50px;
 }
 
 /* Code CSS de la section HOME */
@@ -218,12 +221,13 @@ span {
 }
 
 #about-us .contener {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
     text-align: center;
     gap: 30px ;
+    margin: 50px 80px;
 }
 #about-us .contener div {
     background-color: var(--whiteBG);
@@ -600,7 +604,68 @@ span {
 }
 
 /* Code CSS de la section d'informations */
-.information {
+#informations {
+    background-color: var(--primary );
     display: flex;
-    text-align: left;
+    justify-content: center;
+    height: 50vh;
+
+}
+#informations .information {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+    font-size: 13px;
+    line-height: 25px;
+}
+#informations .information div {
+    width: 30%;
+    color: var(--white);
+    padding: 0 2%;
+}
+.logo-dentic{
+    /* padding-right: 3%; */
+    border-right: solid var(--silver) 1px;
+    line-height: 35px;
+}
+.logo-dentic img {
+    width: 150px;
+    filter: brightness(0) invert(1);
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.welcomming h5 {
+    font-size: 25px;
+    margin: 20px 0px;
+}
+.important-link {
+    border-left: solid var(--silver) 1px;
+    border-right: solid var(--silver) 1px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+.important-link h4 {
+    grid-column: 1/3;
+}
+.address h4{
+    margin-bottom: 30px;
+}
+.address h5{
+    margin-bottom: 30px;  
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--footerBG);
+    color: var(--white);
+    padding: 15px;
+}
+section {
+    margin-top: 50px;
 }
