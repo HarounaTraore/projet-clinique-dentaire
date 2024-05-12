@@ -108,7 +108,7 @@ span {
     margin: 20px 100px 30px 0;
 }
 #home .img-rigth {
-    width: 350px;
+    width: 400px;
     height: 350px;
 }
 #home .button-contener button {
@@ -202,7 +202,7 @@ span {
 }
 
 .content-service ul li {
-    list-style: url('/images/shield.png');
+   list-style-image: url('../images/shield.png');
     list-style-position: inside;
 
 }
@@ -644,8 +644,7 @@ span {
     padding: 0 2%;
 }
 #information infora.logo-dentic{
-    /* padding-right: 3%; */
-    border-right: solid var(--silver) 1px;
+
     line-height: 35px;
 }
 .logo-dentic img {
@@ -653,6 +652,9 @@ span {
     filter: brightness(0) invert(1);
     margin-bottom: 20px;
     margin-top: 0;
+}
+.welcomming {
+    border-left: solid var(--silver) 1px;
 }
 .welcomming h5 {
     font-size: 25px;
