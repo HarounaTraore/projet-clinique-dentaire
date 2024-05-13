@@ -514,6 +514,8 @@ span {
     padding: 10px;
     margin-bottom: 15px;
     border: solid var(--silver) 1px;
+    background-color: transparent;
+    color: var(--muted);
 }
 #register .contener form textarea {
     grid-column: 1/3;
