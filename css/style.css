@@ -604,7 +604,7 @@ span {
 #subscribes .subscribe h2{
     font-size: 50px;
 }
-#subscribes .subscribe div {
+#subscribes .subscribe form {
     display: flex;
     justify-content: space-between;
 }
