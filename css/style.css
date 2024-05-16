@@ -78,7 +78,7 @@ header #nav-bar div button {
 }
 #home .div-left h1 {
     font-size: 50px;
-    margin-bottom: 50px;
+
 }
 button:hover,input[type="submit"]:hover {
     cursor: pointer;
@@ -91,7 +91,9 @@ span {
 #home .div-left p {
     color: var(--muted);
     font-size: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    line-height: 2;
 }
 
 #home .button-contener {
